@@ -1,0 +1,206 @@
+/* General Body Styling */
+body {
+  background-color: #f7fdfc;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Container Flexbox */
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+/* Section 1 Styling */
+.section1 {
+  text-align: center;
+  margin: 10%;
+}
+.section1 h1 {
+  font-size: 40px;
+  font-weight: 700;
+  color: #000b0a;
+}
+.section1 .p1 {
+  font-size: 16px;
+  color: #737373;
+}
+
+/* Section 2 Styling */
+.section2 {
+  background-color: white;
+  width: 90%;
+  max-width: 580px;
+  border-radius: 6px;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* List Styling */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+/* Name Input Section */
+.name {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+/* Input and Select Styling */
+input,
+select {
+  width: 238px;
+  height: 42px;
+  padding-left: 12px;
+  font-size: 14px;
+  border: 1px solid #beb7b7;
+  border-radius: 4px;
+  outline: none;
+}
+input::placeholder {
+  color: #aaa;
+  font-style: italic;
+}
+input:focus,
+select:focus {
+
+  border:2px solid rgb(18, 236, 182);
+}
+
+/* Label Styling */
+label {
+  font-size: 14px;
+  font-weight: 600;
+  color: #011c34;
+  margin-bottom: 5px;
+  display: block;
+}
+
+/* Button Styling */
+.button button {
+  width: 100%;
+  height: 48px;
+  background-color: #2ec4b6;
+  border: none;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+.button button:hover {
+  background-color: #249f8e;
+}
+
+/* Password Section */
+.password {
+  position: relative;
+  margin-bottom: 20px;
+}
+.password img {
+  position: absolute;
+  top: 65%;
+  right: 45px;
+  transform: translateY(-50%);
+  cursor: pointer;
+  width: 12px;
+  height: 10px;
+}
+.activity, .password {
+  width:550px;
+}
+#activity, #password {
+  width:500px;
+}
+.link{
+  width: 463px;
+height: 25px;
+top: 695px;
+left: 778px;
+gap: 0px;
+opacity: 0px;
+}
+.link p{
+  font-family: Sofia Pro;
+font-size: 14px;
+font-weight: 400;
+line-height: 25px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+.link a{
+  color:#2ec4b6;
+}
+
+@media screen and (max-width: 768px) {
+  .container{
+    display: block;
+  }
+  .name {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .name li {
+    width: 100%;
+  }
+  .section1 h1 {
+    font-size: 30px;
+  }
+  .section1 p {
+    font-size: 14px;
+  }
+  .section2 {
+    padding: 15px;
+  }
+  .activity, .password {
+  width:350px;
+}
+#activity, #password {
+  width:300px;
+}
+input, select{
+  width:300px
+}
+
+.link{
+  width: 263px;
+height: 25px;
+top: 695px;
+left: 778px;
+padding: 20px;
+}
+}
+
+@media screen and (max-width: 480px) {
+  .section1 h1 {
+    font-size: 24px;
+  }
+  .section1 p {
+    font-size: 12px;
+  }
+  .button button {
+    font-size: 14px;
+  }
+   .activity, .password {
+  width:350px;
+}
+#activity, #password {
+  width:300px;
+}
+input, select{
+  width:300px
+}
+}
+
+

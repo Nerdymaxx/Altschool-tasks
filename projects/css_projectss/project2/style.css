@@ -1,0 +1,48 @@
+body {
+  background-color: #9c9ec4;
+}
+.container {
+  background-color: aliceblue;
+  width: 400px;
+  height: 500px;
+  border-radius: 8px;
+  justify-self: center;
+  margin-top: 60px;
+}
+.sec1 {
+  width: 400px;
+  position: relative;
+}
+.sec1 img {
+  width: 400px;
+  border-radius: 8px 8px 0px 0px;
+}
+.sec1 .float {
+  position: absolute;
+  background-color: #ffefb1;
+
+  height: 30px;
+  width: 170px;
+  margin-left: -8px;
+  margin-top: 12px;
+  border-radius: 5px 20px 20px 5px;
+}
+.sec1 .float p {
+  text-align: center;
+  margin: 5px;
+  font-weight: 900;
+  text-transform: capitalize;
+}
+.sec2 {
+  margin: 10px;
+}
+.sec2 h2 {
+  text-transform: capitalize;
+}
+.sec2 span {
+  color: #636363;
+  font-size: 17px;
+}
+.sec2 p {
+  padding: 5px;
+}

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alt Assignment4</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+
+    <!-- Section 1 -->
+    <section class="section1">
+      <div class="h1">
+        <h1>For Individual</h1>
+      </div>
+      <span class="p1">
+        <p>Start benefiting from the wellness experience. For companies looking to increase productivity and improve organization wellness.</p>
+      </span>
+    </section>
+
+    <!-- Section 2 -->
+    <section class="section2">
+      <form>
+        <ul>
+          <!-- First and Last Name -->
+          <div class="name">
+            <li>
+              <label for="firstname">Enter First Name</label>
+              <input type="text" id="firstname" name="firstname" autofocus placeholder="First Name" required>
+            </li>
+            <li>
+              <label for="lastname">Enter Last Name</label>
+              <input type="text" id="lastname" name="lastname" placeholder="Last Name" required>
+            </li>
+          </div>
+
+          <!-- Gender and Date of Birth -->
+          <div class="name">
+            <li>
+              <label for="gender">Gender</label>
+              <select id="gender" name="gender" required>
+                <option value="">Select Here</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+              </select>
+            </li>
+            <li>
+              <label for="dob">Date of Birth</label>
+              <input type="date" id="dob" name="dob" required>
+            </li>
+          </div>
+
+          <!-- Weight and Height -->
+          <div class="name">
+            <li>
+              <label for="weight">Weight (kg)</label>
+              <input type="text" id="weight" name="weight" placeholder="Enter Weight" required>
+            </li>
+            <li>
+              <label for="height">Height (cm)</label>
+              <input type="text" id="height" name="height" placeholder="Enter Height" required>
+            </li>
+          </div>
+
+          <!-- Activity Level -->
+          <div class="activity">
+            <li>
+              <label for="activity">Activity Level</label>
+              <select id="activity" name="activity" required>
+                <option value="">Select Here</option>
+                <option value="low">Low</option>
+                <option value="moderate">Moderate</option>
+                <option value="high">High</option>
+              </select>
+            </li>
+          </div>
+
+          <!-- Password -->
+          <div class="password">
+            <li>
+              <label for="password">Password</label>
+              <div>
+                <input type="password" id="password" name="password" placeholder="Enter Password" required>
+                <img src="show.png" alt="Show Password">
+              </div>
+            </li>
+          </div>
+
+          <!-- Submit Button -->
+          <div class="button">
+            <button type="submit">Register</button>
+          </div>
+
+          <div class="link"><p>By clicking Register, you agree to our <a href="http://">Terms of Use</a> and our <a href="http://">Privacy Policy</a></p></div>
+        </ul>
+      </form>
+    </section>
+
+  </div>
+</body>
+</html>
+

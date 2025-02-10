@@ -1,0 +1,45 @@
+body{
+    background-color: black;
+}
+.container{
+    background-color: white;
+    height:300px;
+    width:600px;
+    border-radius: 8px;
+    margin:90px 20px 100px 100px;
+
+
+}
+.first-child{
+    width:100%;
+    position:relative;
+}
+.pink-text{
+    background-color:#FF1093 ;
+    width:450px;
+    height: 35px;
+    margin-left: 45px ;
+    padding: 30px;
+    border-radius: 8px;
+    position:absolute;
+    top: -35px;
+}
+.otter-text {
+    color:#000000;
+     margin-top: -1%;
+     text-transform: capitalize;
+     font-size:50px;
+     text-align: center;
+     font-weight: 900;
+     line-height: 29.71433px;
+     font-stretch: 100%;
+
+
+}
+ p {
+
+    padding:0px;
+    font-size: 20px;
+    margin-top: 60px;
+
+}
